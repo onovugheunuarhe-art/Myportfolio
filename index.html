@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/projectone.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
+     <script src="https://unpkg.com/typeit@8.8.7/dist/index.umd.js"></script>
+     <script src="./index.js" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
@@ -31,7 +34,8 @@
     <main>
       <section class="hero-section">
         <div class="text-content">
-          <h3>Hi,I'm a Developer Buliding App</h3>
+          <marquee><h3>Hi, I'm a Developer Building applications</h3></marquee>
+          
           <h1>Software Developer.</h1>
           <p>From prototypes to production-ready systems,<br> I turn ideas into scalable, user-focused products. </p>
           <div class="btn-container">
@@ -70,12 +74,12 @@
 
     <!-- Part 2 -->
 
-    <div class="mother">
-        
-       <div class="heading">
-        <h1>About Me</h1>
-        <p>I build intuitive digital products-Scalable high-<br>performing, and made through collaboration</p>
+ <div class="heading">
+        <h1><b>About Me</b></h1>
+        <p>I build intuitive digital products-Scalable high-performing,<br> and made through collaboration.</p>
        </div>
+        
+      
         
        <div class="sub-mother">
          <div class="image-text">
@@ -85,18 +89,18 @@
           
 
            <div class="about-icon">
-            <button class="btn">Available for work</button>
-            <h2>ENGR FRANCIS</h2>
-            <p>Create seamless experience across web,<br>mobile, and desktop with one codebase.</p>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <button class="btn-2">Let's Connect</button>
+             <button class="btn">Available for work</button>
+             <h2>ENGR FRANCIS</h2>
+             <p>Create seamless experience across web,<br>mobile, and desktop with one codebase.</p>
+             <i class="fa fa-instagram" aria-hidden="true"></i>
+             <button class="btn-2">Let's Connect</button>
            </div>
          </div>
 
          <div class="next-part">
           <div class="np-text">
            <h2>Hi! I'm Engr Francis,</h2>
-           <p>a developer passionate about building meaningful digital experiences. With a focus<br> on clean code thoughtful design and scalable solutions. I help turn ideas into<br> products people love to use. <br> <br> I specialize in web development, cross platform applications, and UI/UX design,<br> blending creativity with technical expertise to deliver work that's both functional<br> and visually compelling.</p>
+           <p>a developer passionate about building meaningful digital experiences. With a<br>focus on clean code thoughtful design and scalable solutions. I help turn ideas<br> into products people love to use. I specialize in web development, cross platform applications, and UI/UX design, blending creativity with technical expertise to deliver work that's both functional and visually compelling.</p>
           </div>
 
            <div class="icons-content">
@@ -114,8 +118,6 @@
               </a>
             </div>
 
-
-          
 
           <div class="experience">
              <h2>Experience</h2> 
@@ -152,18 +154,12 @@
          </div>  
        </div>
 
-       
-
-       
-        
-        
-    </div>
 
     <!-- Part 3 -->
 
     <div class="heading-one">
      <div class="head-section">
-        <h1>My Skill</h1>
+        <h1>Projects</h1>
         <p>A clear workflow drives each project-from strategy and<br> design to development and post-launch support.</p>
      </div>
 
@@ -190,5 +186,68 @@
         <button class="btn">Book a call</button>
      </div>
   </div>
+
+
+   </section> <!-- frequently asked questions  -->
+        <section class="lg:w-300 md:200 mx-auto! space-y-10! py-20! ">
+          <div class=" text-center">
+            <h2 class="text-2xl font-semibold"> Frequently Asked Questions</h2>
+            <p> Answers to common questions about my work and processes.</p>
+          </div>
+
+          <div class="space-y-5!">
+            <details class="rounded-lg bg-[#eaf686] p-5!">
+              <summary class="text-2xl font-semibold! flex justify-between items-center">
+                <h3> What kind of project are you working on? </h3>
+                <i class="fa fa-solid fa-times cursor pointer" ></i>
+              </summary>
+              <p class="pt-5!">I'm creating a professional portfolio website to establish my online presence and showcase the websites and applications I've built.</p>
+            </details>
+
+             <div class="space-y-5!">
+            <details class="rounded-lg bg-[#eaf686] p-5!">
+              <summary class="text-2xl font-semibold! flex justify-between items-center">
+                <h3> Do you take on freelance or full-time work?</h3>
+                <i class="fa fa-solid fa-times cursor pointer" ></i>
+              </summary>
+              <p class="pt-5!">Yes! I'm available for freelance projects and always excited to collaborate on meaningful ideas. Feel free to get in touch to discuss your project.</p>
+            </details>
+            
+             <div class="space-y-5!">
+            <details class="rounded-lg bg-[#eaf686] p-5!">
+              <summary class="text-2xl font-semibold! flex justify-between items-center">
+                <h3> How do you approach new projects? </h3>
+                <i class="fa fa-solid fa-times cursor pointer" ></i>
+              </summary>
+              <p class="pt-5!">Every project begins with research and planning. I focus on creating intuitive designs, writing maintainable code, and delivering a fast, responsive, and user-friendly experience</p>
+            </details>
+
+
+             <div class="space-y-5!">
+            <details class="rounded-lg bg-[#eaf686] p-5!">
+              <summary class="text-2xl font-semibold! flex justify-between items-center">
+                <h3> Whats your typical project timeline? </h3>
+                <i class="fa fa-solid fa-times cursor pointer" ></i>
+              </summary>
+              <p class="pt-5!">The timeline varies based on the project's requirements. After discussing your goals, I'll provide an estimated schedule and keep you updated throughout the development process.</p>
+            </details>
+            </div>
+
+                    
+          
+          
+
+        </section>
+ 
+    <section class="w-full lg:w-300 md:200 mx-auto! flex justify-center bg-linear-90  frome-orange-500 to-orange-700 rounded-lg h-100 p-10! overflow-hidden">
+      <div class="w-160 space-y-5! flex flex-col justify-center items-start h-full animate_animated animate_fadeInLeft">
+        <h1 class="text-3xl font-bold">OUR VISION IS TO EXCEED YOUR EXPECTATIONS <span class="text-emerald-900">EXCEPTIONALLY</span></h1>
+        <P>Schedule a consultation with us, to begin the journey of a wonderful experience</P>
+        <button class="px-10! py-3! bg-emerald-900 text-white font-semibold rounded-full border-2 border-white cursor-pointer"><marquee>Book a call</marquee></button>
+      </div>
+    </section>
+
+
+     <script src="./index.js"></script>
 </body>
 </html>
