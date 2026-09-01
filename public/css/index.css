@@ -512,6 +512,52 @@ body{
 } */
 
 
+/* =========================
+   HAMBURGER MENU
+   ========================= */
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: blue;
+}
+
+
+/* =========================
+   MOBILE NAVIGATION
+   ========================= */
+
+@media screen and (max-width: 767px) {
+
+    header nav {
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    header nav ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    /* When menu is opened */
+    header nav ul.active {
+        display: flex;
+    }
+}
+
+
+
 
 @/* =========================================================
    RESPONSIVE DESIGN
